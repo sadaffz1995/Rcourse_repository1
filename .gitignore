@@ -5,6 +5,9 @@
 # Session Data files
 .RData
 .RDataTmp
+ # Ignore R project files
+.Rproj
+
 
 # User-specific files
 .Ruserdata
