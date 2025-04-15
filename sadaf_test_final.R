@@ -1,3 +1,5 @@
+#task 1 - Sadaf Fazeli
+
 install.packages("tidyverse")
 library(tidyverse)
 renv::install(c("ggplot2", "dplyr", "tidyr"))
@@ -11,6 +13,9 @@ summary(iris)
 str(iris)
 df <- tbl_df(iris) 
 df
+
+
+#Modify the data similar to the example provided
 
 
 
@@ -141,4 +146,4 @@ renv::snapshot()
 
 
 
-#Always add comment before commit and then push 
+#Always add comment before commit and then push to Github
